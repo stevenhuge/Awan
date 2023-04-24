@@ -38,6 +38,9 @@ public class MainActivity extends AppCompatActivity{
 
         firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
 
+//
+//
+
         if(firebaseUser!=null) {
             textName.setText(firebaseUser.getDisplayName());
         }else{
